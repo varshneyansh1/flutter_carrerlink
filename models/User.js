@@ -21,7 +21,7 @@ const UserSchema = new mongoose.Schema(
         },
         profile: {
             type: String,
-            require: true,
+            required: false,
             default: "https://d326fntlu7tb1e.cloudfront.net/uploads/4821d814-ac87-4b22-aa80-ac7336916c9a-403017_avatar_default_head_person_unknown_icon.png"
         },
 
