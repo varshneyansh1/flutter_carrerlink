@@ -5,7 +5,7 @@ const { verifyTokenAndAgent } = require("../middleware/verifyToken");
 
 
 // CREATE JOB
-router.post("/", verifyToken, jobController.createJob);
+router.post("/", verifyTokenAndAgent, jobController.createJob);
 
 
 // UPADATE JOB
