@@ -1,5 +1,6 @@
 const router = require("express").Router();
 const jobController = require("../controllers/jobController");
+const { verifyToken } = require("../middleware/verifyToken");
 const { verifyTokenAndAgent } = require("../middleware/verifyToken");
 
 
