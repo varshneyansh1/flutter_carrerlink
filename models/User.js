@@ -13,7 +13,7 @@ const UserSchema = new mongoose.Schema(
         },
         isAgent: {
             type: Boolean,
-            default: false
+            default: true
         },
         skills: {
             type: Array,
