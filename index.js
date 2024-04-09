@@ -37,7 +37,7 @@ const io = require('socket.io')(server,
         cors: {
             // origin: "http:localhost:5001",
            // origin: "https://flutter-carrerlink.onrender.com/",
-           origin:"  https://3094-59-89-50-210.ngrok-free.app",
+           origin:"https://3094-59-89-50-210.ngrok-free.app",
         },
     });
 
