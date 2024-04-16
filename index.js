@@ -27,6 +27,7 @@ app.use("/api/jobs", jobRoute);
 app.use("/api/bookmarks", bookmarkRoute);
 app.use("/api/chats", chatRoute);
 app.use("/api/messages", messageRoute);
+app.use("/api",require("./routes/app.routes"));
 
 
 const server = app.listen(process.env.PORT || 4000, () => console.log(`Example app listening on port ${process.env.PORT}!`));
